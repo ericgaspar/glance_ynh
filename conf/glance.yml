@@ -2,7 +2,7 @@ server:
   port: __PORT__
   assets-path: __DATA_DIR__
 
-  pages:
+pages:
   - name: Home
     columns:
       - size: small
