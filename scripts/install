@@ -23,10 +23,10 @@ chmod +x "$install_dir/glance-linux-amd64"
 #=================================================
 ynh_script_progression --message="Adding $app's configuration files..." --weight=1
 
-ynh_add_config --template="glance.yml" --destination="$data_dir/glance.yml"
+ynh_add_config --template="glance.yml" --destination="$install_dir/glance.yml"
 
-chmod 400 "$data_dir/glance.yml"
-chown "$app:$app" "$data_dir/glance.yml"
+chmod 400 "$install_dir/glance.yml"
+chown "$app:$app" "$install_dir/glance.yml"
 
 #=================================================
 # SYSTEM CONFIGURATION
