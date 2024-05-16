@@ -47,7 +47,7 @@ pages:
       - size: small
         widgets:
           - type: weather
-            location: London, United Kingdom
+            location: Paris, France
 
           - type: stocks
             stocks:
